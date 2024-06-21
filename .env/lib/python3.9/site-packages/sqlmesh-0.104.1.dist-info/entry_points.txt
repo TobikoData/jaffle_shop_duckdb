@@ -1,0 +1,6 @@
+[airflow.plugins]
+sqlmesh_airflow = sqlmesh.schedulers.airflow.plugin:SqlmeshAirflowPlugin
+
+[console_scripts]
+sqlmesh = sqlmesh.cli.main:cli
+sqlmesh_cicd = sqlmesh.cicd.bot:bot
